@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "SPec2" {
   ami           = "ami-011c99152163a87ae"
   instance_type = "t3.micro"
-  key_name = "windowkey"
+  key_name = "key Name"
 
   tags = {
     Name = "SP ec2"
