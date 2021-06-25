@@ -55,8 +55,8 @@ def FaceRecognizer(modelFile, NamesList=[] , detector="haarcascade_frontalface_d
                     cv2.putText(image, label1, (x+5, y + h+30), cv2.FONT_HERSHEY_COMPLEX, 1, (0,255,0), 2)
                     cv2.imshow("face Recognition", image)
                     if ( (count1 == 1) and (label1 == 'Aryan') ):    
-                        sendwhatmsg("+917877205263", "testing for task6 summer program 2k21")
-                        print("message sent to Guarav Jangid")
+                        sendwhatmsg("+91phoneNo", "testing for task6 summer program 2k21")
+                        print("message sent to XXX")
                         time.sleep(2)
                         count1 += 1
                         
@@ -64,8 +64,8 @@ def FaceRecognizer(modelFile, NamesList=[] , detector="haarcascade_frontalface_d
                     cv2.putText(image, label2, (x+5, y + h+30), cv2.FONT_HERSHEY_COMPLEX, 1, (0,255,0), 2)
                     cv2.imshow("face Recognition", image)
                     if ( (count2 == 1) and (label2 == 'Sonu') ):
-                        sendMail("mindedindia02@gmail.com", "Sa@230074","ar9131000@gmail.com", "testing for task6 summer program 2k21")
-                        print("mail sent to ar9131000@gmail.com")
+                        sendMail("senderMail", "password","receiverMail", "testing for task6 summer program 2k21")
+                        print("mail sent to receiverMail")
                         time.sleep(2)
                         count2 += 1
                 if ( (confidence1>80) and (confidence2>80) ):
